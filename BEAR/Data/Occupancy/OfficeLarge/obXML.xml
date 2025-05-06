@@ -1,0 +1,2195 @@
+<?xml version="1.0"?>
+<OccupantBehavior xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="OS001" Version="1.3.2" xsi:noNamespaceSchemaLocation="obXML_v1.3.2.xsd">
+  <Buildings>
+    <Building ID="Building_1">
+      <Description>A office building which contains 23 spaces and 302 occupants.</Description>
+      <Type>Office</Type>
+      <Spaces ID="All_Spaces">
+        <Space ID="S0_Outdoor">
+          <Type>Outdoor</Type>
+        </Space>
+        <Space ID="S1_CORE_BOTTOM">
+          <Type>MeetingRoom</Type>
+          <MeetingEvent>
+            <SeasonType>All</SeasonType>
+            <DayofWeek>Weekdays</DayofWeek>
+            <MinNumOccupantsPerMeeting>2</MinNumOccupantsPerMeeting>
+            <MaxNumOccupantsPerMeeting>12</MaxNumOccupantsPerMeeting>
+            <MinNumberOfMeetingsPerDay>2</MinNumberOfMeetingsPerDay>
+            <MaxNumberOfMeetingsPerDay>6</MaxNumberOfMeetingsPerDay>
+            <MeetingDurationProbability>
+              <MeetingDuration>PT30M</MeetingDuration>
+              <Probability>0.12</Probability>
+            </MeetingDurationProbability>
+            <MeetingDurationProbability>
+              <MeetingDuration>PT60M</MeetingDuration>
+              <Probability>0.72</Probability>
+            </MeetingDurationProbability>
+            <MeetingDurationProbability>
+              <MeetingDuration>PT90M</MeetingDuration>
+              <Probability>0.12</Probability>
+            </MeetingDurationProbability>
+            <MeetingDurationProbability>
+              <MeetingDuration>PT120M</MeetingDuration>
+              <Probability>0.04</Probability>
+            </MeetingDurationProbability>
+          </MeetingEvent>
+        </Space>
+        <Space ID="S2_TOPFLOOR_PLENUM">
+          <Type>Other</Type>
+        </Space>
+        <Space ID="S3_MIDFLOOR_PLENUM">
+          <Type>Other</Type>
+        </Space>
+        <Space ID="S4_GROUNDFLOOR_PLENUM">
+          <Type>Other</Type>
+        </Space>
+        <Space ID="S5_CORE_MID">
+          <Type>MeetingRoom</Type>
+          <MeetingEvent>
+            <SeasonType>All</SeasonType>
+            <DayofWeek>Weekdays</DayofWeek>
+            <MinNumOccupantsPerMeeting>2</MinNumOccupantsPerMeeting>
+            <MaxNumOccupantsPerMeeting>12</MaxNumOccupantsPerMeeting>
+            <MinNumberOfMeetingsPerDay>2</MinNumberOfMeetingsPerDay>
+            <MaxNumberOfMeetingsPerDay>6</MaxNumberOfMeetingsPerDay>
+            <MeetingDurationProbability>
+              <MeetingDuration>PT30M</MeetingDuration>
+              <Probability>0.12</Probability>
+            </MeetingDurationProbability>
+            <MeetingDurationProbability>
+              <MeetingDuration>PT60M</MeetingDuration>
+              <Probability>0.72</Probability>
+            </MeetingDurationProbability>
+            <MeetingDurationProbability>
+              <MeetingDuration>PT90M</MeetingDuration>
+              <Probability>0.12</Probability>
+            </MeetingDurationProbability>
+            <MeetingDurationProbability>
+              <MeetingDuration>PT120M</MeetingDuration>
+              <Probability>0.04</Probability>
+            </MeetingDurationProbability>
+          </MeetingEvent>
+        </Space>
+        <Space ID="S6_CORE_TOP">
+          <Type>MeetingRoom</Type>
+          <MeetingEvent>
+            <SeasonType>All</SeasonType>
+            <DayofWeek>Weekdays</DayofWeek>
+            <MinNumOccupantsPerMeeting>2</MinNumOccupantsPerMeeting>
+            <MaxNumOccupantsPerMeeting>12</MaxNumOccupantsPerMeeting>
+            <MinNumberOfMeetingsPerDay>2</MinNumberOfMeetingsPerDay>
+            <MaxNumberOfMeetingsPerDay>6</MaxNumberOfMeetingsPerDay>
+            <MeetingDurationProbability>
+              <MeetingDuration>PT30M</MeetingDuration>
+              <Probability>0.12</Probability>
+            </MeetingDurationProbability>
+            <MeetingDurationProbability>
+              <MeetingDuration>PT60M</MeetingDuration>
+              <Probability>0.72</Probability>
+            </MeetingDurationProbability>
+            <MeetingDurationProbability>
+              <MeetingDuration>PT90M</MeetingDuration>
+              <Probability>0.12</Probability>
+            </MeetingDurationProbability>
+            <MeetingDurationProbability>
+              <MeetingDuration>PT120M</MeetingDuration>
+              <Probability>0.04</Probability>
+            </MeetingDurationProbability>
+          </MeetingEvent>
+        </Space>
+        <Space ID="S7_PERIMETER_TOP_ZN_1">
+          <Type>OfficeShared</Type>
+          <OccupantID>S7_PERIMETER_TOP_ZN_1_O1</OccupantID>
+          <OccupantID>S7_PERIMETER_TOP_ZN_1_O2</OccupantID>
+          <OccupantID>S7_PERIMETER_TOP_ZN_1_O3</OccupantID>
+          <OccupantID>S7_PERIMETER_TOP_ZN_1_O4</OccupantID>
+          <OccupantID>S7_PERIMETER_TOP_ZN_1_O5</OccupantID>
+          <OccupantID>S7_PERIMETER_TOP_ZN_1_O6</OccupantID>
+          <OccupantID>S7_PERIMETER_TOP_ZN_1_O7</OccupantID>
+          <OccupantID>S7_PERIMETER_TOP_ZN_1_O8</OccupantID>
+          <OccupantID>S7_PERIMETER_TOP_ZN_1_O9</OccupantID>
+          <OccupantID>S7_PERIMETER_TOP_ZN_1_O10</OccupantID>
+          <OccupantID>S7_PERIMETER_TOP_ZN_1_O11</OccupantID>
+          <OccupantID>S7_PERIMETER_TOP_ZN_1_O12</OccupantID>
+          <OccupantID>S7_PERIMETER_TOP_ZN_1_O13</OccupantID>
+          <OccupantID>S7_PERIMETER_TOP_ZN_1_O14</OccupantID>
+          <OccupantID>S7_PERIMETER_TOP_ZN_1_O15</OccupantID>
+          <OccupantID>S7_PERIMETER_TOP_ZN_1_O16</OccupantID>
+        </Space>
+        <Space ID="S8_PERIMETER_TOP_ZN_2">
+          <Type>OfficeShared</Type>
+          <OccupantID>S8_PERIMETER_TOP_ZN_2_O1</OccupantID>
+          <OccupantID>S8_PERIMETER_TOP_ZN_2_O2</OccupantID>
+          <OccupantID>S8_PERIMETER_TOP_ZN_2_O3</OccupantID>
+          <OccupantID>S8_PERIMETER_TOP_ZN_2_O4</OccupantID>
+          <OccupantID>S8_PERIMETER_TOP_ZN_2_O5</OccupantID>
+          <OccupantID>S8_PERIMETER_TOP_ZN_2_O6</OccupantID>
+          <OccupantID>S8_PERIMETER_TOP_ZN_2_O7</OccupantID>
+          <OccupantID>S8_PERIMETER_TOP_ZN_2_O8</OccupantID>
+          <OccupantID>S8_PERIMETER_TOP_ZN_2_O9</OccupantID>
+          <OccupantID>S8_PERIMETER_TOP_ZN_2_O10</OccupantID>
+        </Space>
+        <Space ID="S9_PERIMETER_TOP_ZN_3">
+          <Type>OfficeShared</Type>
+          <OccupantID>S9_PERIMETER_TOP_ZN_3_O1</OccupantID>
+          <OccupantID>S9_PERIMETER_TOP_ZN_3_O2</OccupantID>
+          <OccupantID>S9_PERIMETER_TOP_ZN_3_O3</OccupantID>
+          <OccupantID>S9_PERIMETER_TOP_ZN_3_O4</OccupantID>
+          <OccupantID>S9_PERIMETER_TOP_ZN_3_O5</OccupantID>
+          <OccupantID>S9_PERIMETER_TOP_ZN_3_O6</OccupantID>
+          <OccupantID>S9_PERIMETER_TOP_ZN_3_O7</OccupantID>
+          <OccupantID>S9_PERIMETER_TOP_ZN_3_O8</OccupantID>
+          <OccupantID>S9_PERIMETER_TOP_ZN_3_O9</OccupantID>
+          <OccupantID>S9_PERIMETER_TOP_ZN_3_O10</OccupantID>
+          <OccupantID>S9_PERIMETER_TOP_ZN_3_O11</OccupantID>
+          <OccupantID>S9_PERIMETER_TOP_ZN_3_O12</OccupantID>
+          <OccupantID>S9_PERIMETER_TOP_ZN_3_O13</OccupantID>
+          <OccupantID>S9_PERIMETER_TOP_ZN_3_O14</OccupantID>
+          <OccupantID>S9_PERIMETER_TOP_ZN_3_O15</OccupantID>
+          <OccupantID>S9_PERIMETER_TOP_ZN_3_O16</OccupantID>
+        </Space>
+        <Space ID="S10_PERIMETER_TOP_ZN_4">
+          <Type>OfficeShared</Type>
+          <OccupantID>S10_PERIMETER_TOP_ZN_4_O1</OccupantID>
+          <OccupantID>S10_PERIMETER_TOP_ZN_4_O2</OccupantID>
+          <OccupantID>S10_PERIMETER_TOP_ZN_4_O3</OccupantID>
+          <OccupantID>S10_PERIMETER_TOP_ZN_4_O4</OccupantID>
+          <OccupantID>S10_PERIMETER_TOP_ZN_4_O5</OccupantID>
+          <OccupantID>S10_PERIMETER_TOP_ZN_4_O6</OccupantID>
+          <OccupantID>S10_PERIMETER_TOP_ZN_4_O7</OccupantID>
+          <OccupantID>S10_PERIMETER_TOP_ZN_4_O8</OccupantID>
+          <OccupantID>S10_PERIMETER_TOP_ZN_4_O9</OccupantID>
+          <OccupantID>S10_PERIMETER_TOP_ZN_4_O10</OccupantID>
+        </Space>
+        <Space ID="S11_PERIMETER_BOT_ZN_1">
+          <Type>OfficeShared</Type>
+          <OccupantID>S11_PERIMETER_BOT_ZN_1_O1</OccupantID>
+          <OccupantID>S11_PERIMETER_BOT_ZN_1_O2</OccupantID>
+          <OccupantID>S11_PERIMETER_BOT_ZN_1_O3</OccupantID>
+          <OccupantID>S11_PERIMETER_BOT_ZN_1_O4</OccupantID>
+          <OccupantID>S11_PERIMETER_BOT_ZN_1_O5</OccupantID>
+          <OccupantID>S11_PERIMETER_BOT_ZN_1_O6</OccupantID>
+          <OccupantID>S11_PERIMETER_BOT_ZN_1_O7</OccupantID>
+          <OccupantID>S11_PERIMETER_BOT_ZN_1_O8</OccupantID>
+          <OccupantID>S11_PERIMETER_BOT_ZN_1_O9</OccupantID>
+          <OccupantID>S11_PERIMETER_BOT_ZN_1_O10</OccupantID>
+          <OccupantID>S11_PERIMETER_BOT_ZN_1_O11</OccupantID>
+          <OccupantID>S11_PERIMETER_BOT_ZN_1_O12</OccupantID>
+          <OccupantID>S11_PERIMETER_BOT_ZN_1_O13</OccupantID>
+          <OccupantID>S11_PERIMETER_BOT_ZN_1_O14</OccupantID>
+          <OccupantID>S11_PERIMETER_BOT_ZN_1_O15</OccupantID>
+          <OccupantID>S11_PERIMETER_BOT_ZN_1_O16</OccupantID>
+        </Space>
+        <Space ID="S12_PERIMETER_BOT_ZN_2">
+          <Type>OfficeShared</Type>
+          <OccupantID>S12_PERIMETER_BOT_ZN_2_O1</OccupantID>
+          <OccupantID>S12_PERIMETER_BOT_ZN_2_O2</OccupantID>
+          <OccupantID>S12_PERIMETER_BOT_ZN_2_O3</OccupantID>
+          <OccupantID>S12_PERIMETER_BOT_ZN_2_O4</OccupantID>
+          <OccupantID>S12_PERIMETER_BOT_ZN_2_O5</OccupantID>
+          <OccupantID>S12_PERIMETER_BOT_ZN_2_O6</OccupantID>
+          <OccupantID>S12_PERIMETER_BOT_ZN_2_O7</OccupantID>
+          <OccupantID>S12_PERIMETER_BOT_ZN_2_O8</OccupantID>
+          <OccupantID>S12_PERIMETER_BOT_ZN_2_O9</OccupantID>
+          <OccupantID>S12_PERIMETER_BOT_ZN_2_O10</OccupantID>
+        </Space>
+        <Space ID="S13_PERIMETER_BOT_ZN_3">
+          <Type>OfficeShared</Type>
+          <OccupantID>S13_PERIMETER_BOT_ZN_3_O1</OccupantID>
+          <OccupantID>S13_PERIMETER_BOT_ZN_3_O2</OccupantID>
+          <OccupantID>S13_PERIMETER_BOT_ZN_3_O3</OccupantID>
+          <OccupantID>S13_PERIMETER_BOT_ZN_3_O4</OccupantID>
+          <OccupantID>S13_PERIMETER_BOT_ZN_3_O5</OccupantID>
+          <OccupantID>S13_PERIMETER_BOT_ZN_3_O6</OccupantID>
+          <OccupantID>S13_PERIMETER_BOT_ZN_3_O7</OccupantID>
+          <OccupantID>S13_PERIMETER_BOT_ZN_3_O8</OccupantID>
+          <OccupantID>S13_PERIMETER_BOT_ZN_3_O9</OccupantID>
+          <OccupantID>S13_PERIMETER_BOT_ZN_3_O10</OccupantID>
+          <OccupantID>S13_PERIMETER_BOT_ZN_3_O11</OccupantID>
+          <OccupantID>S13_PERIMETER_BOT_ZN_3_O12</OccupantID>
+          <OccupantID>S13_PERIMETER_BOT_ZN_3_O13</OccupantID>
+          <OccupantID>S13_PERIMETER_BOT_ZN_3_O14</OccupantID>
+          <OccupantID>S13_PERIMETER_BOT_ZN_3_O15</OccupantID>
+          <OccupantID>S13_PERIMETER_BOT_ZN_3_O16</OccupantID>
+        </Space>
+        <Space ID="S14_PERIMETER_BOT_ZN_4">
+          <Type>OfficeShared</Type>
+          <OccupantID>S14_PERIMETER_BOT_ZN_4_O1</OccupantID>
+          <OccupantID>S14_PERIMETER_BOT_ZN_4_O2</OccupantID>
+          <OccupantID>S14_PERIMETER_BOT_ZN_4_O3</OccupantID>
+          <OccupantID>S14_PERIMETER_BOT_ZN_4_O4</OccupantID>
+          <OccupantID>S14_PERIMETER_BOT_ZN_4_O5</OccupantID>
+          <OccupantID>S14_PERIMETER_BOT_ZN_4_O6</OccupantID>
+          <OccupantID>S14_PERIMETER_BOT_ZN_4_O7</OccupantID>
+          <OccupantID>S14_PERIMETER_BOT_ZN_4_O8</OccupantID>
+          <OccupantID>S14_PERIMETER_BOT_ZN_4_O9</OccupantID>
+          <OccupantID>S14_PERIMETER_BOT_ZN_4_O10</OccupantID>
+        </Space>
+        <Space ID="S15_PERIMETER_MID_ZN_1">
+          <Type>OfficeShared</Type>
+          <OccupantID>S15_PERIMETER_MID_ZN_1_O1</OccupantID>
+          <OccupantID>S15_PERIMETER_MID_ZN_1_O2</OccupantID>
+          <OccupantID>S15_PERIMETER_MID_ZN_1_O3</OccupantID>
+          <OccupantID>S15_PERIMETER_MID_ZN_1_O4</OccupantID>
+          <OccupantID>S15_PERIMETER_MID_ZN_1_O5</OccupantID>
+          <OccupantID>S15_PERIMETER_MID_ZN_1_O6</OccupantID>
+          <OccupantID>S15_PERIMETER_MID_ZN_1_O7</OccupantID>
+          <OccupantID>S15_PERIMETER_MID_ZN_1_O8</OccupantID>
+          <OccupantID>S15_PERIMETER_MID_ZN_1_O9</OccupantID>
+          <OccupantID>S15_PERIMETER_MID_ZN_1_O10</OccupantID>
+          <OccupantID>S15_PERIMETER_MID_ZN_1_O11</OccupantID>
+          <OccupantID>S15_PERIMETER_MID_ZN_1_O12</OccupantID>
+          <OccupantID>S15_PERIMETER_MID_ZN_1_O13</OccupantID>
+          <OccupantID>S15_PERIMETER_MID_ZN_1_O14</OccupantID>
+          <OccupantID>S15_PERIMETER_MID_ZN_1_O15</OccupantID>
+          <OccupantID>S15_PERIMETER_MID_ZN_1_O16</OccupantID>
+        </Space>
+        <Space ID="S16_PERIMETER_MID_ZN_2">
+          <Type>OfficeShared</Type>
+          <OccupantID>S16_PERIMETER_MID_ZN_2_O1</OccupantID>
+          <OccupantID>S16_PERIMETER_MID_ZN_2_O2</OccupantID>
+          <OccupantID>S16_PERIMETER_MID_ZN_2_O3</OccupantID>
+          <OccupantID>S16_PERIMETER_MID_ZN_2_O4</OccupantID>
+          <OccupantID>S16_PERIMETER_MID_ZN_2_O5</OccupantID>
+          <OccupantID>S16_PERIMETER_MID_ZN_2_O6</OccupantID>
+          <OccupantID>S16_PERIMETER_MID_ZN_2_O7</OccupantID>
+          <OccupantID>S16_PERIMETER_MID_ZN_2_O8</OccupantID>
+          <OccupantID>S16_PERIMETER_MID_ZN_2_O9</OccupantID>
+          <OccupantID>S16_PERIMETER_MID_ZN_2_O10</OccupantID>
+        </Space>
+        <Space ID="S17_PERIMETER_MID_ZN_3">
+          <Type>OfficeShared</Type>
+          <OccupantID>S17_PERIMETER_MID_ZN_3_O1</OccupantID>
+          <OccupantID>S17_PERIMETER_MID_ZN_3_O2</OccupantID>
+          <OccupantID>S17_PERIMETER_MID_ZN_3_O3</OccupantID>
+          <OccupantID>S17_PERIMETER_MID_ZN_3_O4</OccupantID>
+          <OccupantID>S17_PERIMETER_MID_ZN_3_O5</OccupantID>
+          <OccupantID>S17_PERIMETER_MID_ZN_3_O6</OccupantID>
+          <OccupantID>S17_PERIMETER_MID_ZN_3_O7</OccupantID>
+          <OccupantID>S17_PERIMETER_MID_ZN_3_O8</OccupantID>
+          <OccupantID>S17_PERIMETER_MID_ZN_3_O9</OccupantID>
+          <OccupantID>S17_PERIMETER_MID_ZN_3_O10</OccupantID>
+          <OccupantID>S17_PERIMETER_MID_ZN_3_O11</OccupantID>
+          <OccupantID>S17_PERIMETER_MID_ZN_3_O12</OccupantID>
+          <OccupantID>S17_PERIMETER_MID_ZN_3_O13</OccupantID>
+          <OccupantID>S17_PERIMETER_MID_ZN_3_O14</OccupantID>
+          <OccupantID>S17_PERIMETER_MID_ZN_3_O15</OccupantID>
+          <OccupantID>S17_PERIMETER_MID_ZN_3_O16</OccupantID>
+        </Space>
+        <Space ID="S18_PERIMETER_MID_ZN_4">
+          <Type>OfficeShared</Type>
+          <OccupantID>S18_PERIMETER_MID_ZN_4_O1</OccupantID>
+          <OccupantID>S18_PERIMETER_MID_ZN_4_O2</OccupantID>
+          <OccupantID>S18_PERIMETER_MID_ZN_4_O3</OccupantID>
+          <OccupantID>S18_PERIMETER_MID_ZN_4_O4</OccupantID>
+          <OccupantID>S18_PERIMETER_MID_ZN_4_O5</OccupantID>
+          <OccupantID>S18_PERIMETER_MID_ZN_4_O6</OccupantID>
+          <OccupantID>S18_PERIMETER_MID_ZN_4_O7</OccupantID>
+          <OccupantID>S18_PERIMETER_MID_ZN_4_O8</OccupantID>
+          <OccupantID>S18_PERIMETER_MID_ZN_4_O9</OccupantID>
+          <OccupantID>S18_PERIMETER_MID_ZN_4_O10</OccupantID>
+        </Space>
+        <Space ID="S19_DATACENTER_BOT_ZN_6">
+          <Type>Other</Type>
+        </Space>
+        <Space ID="S20_DATACENTER_MID_ZN_6">
+          <Type>Other</Type>
+        </Space>
+        <Space ID="S21_DATACENTER_TOP_ZN_6">
+          <Type>Other</Type>
+        </Space>
+        <Space ID="S22_DATACENTER_BASEMENT_ZN_6">
+          <Type>Other</Type>
+        </Space>
+        <Space ID="S23_BASEMENT">
+          <Type>OfficeShared</Type>
+          <OccupantID>S23_BASEMENT_O1</OccupantID>
+          <OccupantID>S23_BASEMENT_O2</OccupantID>
+          <OccupantID>S23_BASEMENT_O3</OccupantID>
+          <OccupantID>S23_BASEMENT_O4</OccupantID>
+          <OccupantID>S23_BASEMENT_O5</OccupantID>
+          <OccupantID>S23_BASEMENT_O6</OccupantID>
+          <OccupantID>S23_BASEMENT_O7</OccupantID>
+          <OccupantID>S23_BASEMENT_O8</OccupantID>
+          <OccupantID>S23_BASEMENT_O9</OccupantID>
+          <OccupantID>S23_BASEMENT_O10</OccupantID>
+          <OccupantID>S23_BASEMENT_O11</OccupantID>
+          <OccupantID>S23_BASEMENT_O12</OccupantID>
+          <OccupantID>S23_BASEMENT_O13</OccupantID>
+          <OccupantID>S23_BASEMENT_O14</OccupantID>
+          <OccupantID>S23_BASEMENT_O15</OccupantID>
+          <OccupantID>S23_BASEMENT_O16</OccupantID>
+          <OccupantID>S23_BASEMENT_O17</OccupantID>
+          <OccupantID>S23_BASEMENT_O18</OccupantID>
+          <OccupantID>S23_BASEMENT_O19</OccupantID>
+          <OccupantID>S23_BASEMENT_O20</OccupantID>
+          <OccupantID>S23_BASEMENT_O21</OccupantID>
+          <OccupantID>S23_BASEMENT_O22</OccupantID>
+          <OccupantID>S23_BASEMENT_O23</OccupantID>
+          <OccupantID>S23_BASEMENT_O24</OccupantID>
+          <OccupantID>S23_BASEMENT_O25</OccupantID>
+          <OccupantID>S23_BASEMENT_O26</OccupantID>
+          <OccupantID>S23_BASEMENT_O27</OccupantID>
+          <OccupantID>S23_BASEMENT_O28</OccupantID>
+          <OccupantID>S23_BASEMENT_O29</OccupantID>
+          <OccupantID>S23_BASEMENT_O30</OccupantID>
+          <OccupantID>S23_BASEMENT_O31</OccupantID>
+          <OccupantID>S23_BASEMENT_O32</OccupantID>
+          <OccupantID>S23_BASEMENT_O33</OccupantID>
+          <OccupantID>S23_BASEMENT_O34</OccupantID>
+          <OccupantID>S23_BASEMENT_O35</OccupantID>
+          <OccupantID>S23_BASEMENT_O36</OccupantID>
+          <OccupantID>S23_BASEMENT_O37</OccupantID>
+          <OccupantID>S23_BASEMENT_O38</OccupantID>
+          <OccupantID>S23_BASEMENT_O39</OccupantID>
+          <OccupantID>S23_BASEMENT_O40</OccupantID>
+          <OccupantID>S23_BASEMENT_O41</OccupantID>
+          <OccupantID>S23_BASEMENT_O42</OccupantID>
+          <OccupantID>S23_BASEMENT_O43</OccupantID>
+          <OccupantID>S23_BASEMENT_O44</OccupantID>
+          <OccupantID>S23_BASEMENT_O45</OccupantID>
+          <OccupantID>S23_BASEMENT_O46</OccupantID>
+          <OccupantID>S23_BASEMENT_O47</OccupantID>
+          <OccupantID>S23_BASEMENT_O48</OccupantID>
+          <OccupantID>S23_BASEMENT_O49</OccupantID>
+          <OccupantID>S23_BASEMENT_O50</OccupantID>
+          <OccupantID>S23_BASEMENT_O51</OccupantID>
+          <OccupantID>S23_BASEMENT_O52</OccupantID>
+          <OccupantID>S23_BASEMENT_O53</OccupantID>
+          <OccupantID>S23_BASEMENT_O54</OccupantID>
+          <OccupantID>S23_BASEMENT_O55</OccupantID>
+          <OccupantID>S23_BASEMENT_O56</OccupantID>
+          <OccupantID>S23_BASEMENT_O57</OccupantID>
+          <OccupantID>S23_BASEMENT_O58</OccupantID>
+          <OccupantID>S23_BASEMENT_O59</OccupantID>
+          <OccupantID>S23_BASEMENT_O60</OccupantID>
+          <OccupantID>S23_BASEMENT_O61</OccupantID>
+          <OccupantID>S23_BASEMENT_O62</OccupantID>
+          <OccupantID>S23_BASEMENT_O63</OccupantID>
+          <OccupantID>S23_BASEMENT_O64</OccupantID>
+          <OccupantID>S23_BASEMENT_O65</OccupantID>
+          <OccupantID>S23_BASEMENT_O66</OccupantID>
+          <OccupantID>S23_BASEMENT_O67</OccupantID>
+          <OccupantID>S23_BASEMENT_O68</OccupantID>
+          <OccupantID>S23_BASEMENT_O69</OccupantID>
+          <OccupantID>S23_BASEMENT_O70</OccupantID>
+          <OccupantID>S23_BASEMENT_O71</OccupantID>
+          <OccupantID>S23_BASEMENT_O72</OccupantID>
+          <OccupantID>S23_BASEMENT_O73</OccupantID>
+          <OccupantID>S23_BASEMENT_O74</OccupantID>
+          <OccupantID>S23_BASEMENT_O75</OccupantID>
+          <OccupantID>S23_BASEMENT_O76</OccupantID>
+          <OccupantID>S23_BASEMENT_O77</OccupantID>
+          <OccupantID>S23_BASEMENT_O78</OccupantID>
+          <OccupantID>S23_BASEMENT_O79</OccupantID>
+          <OccupantID>S23_BASEMENT_O80</OccupantID>
+          <OccupantID>S23_BASEMENT_O81</OccupantID>
+          <OccupantID>S23_BASEMENT_O82</OccupantID>
+          <OccupantID>S23_BASEMENT_O83</OccupantID>
+          <OccupantID>S23_BASEMENT_O84</OccupantID>
+          <OccupantID>S23_BASEMENT_O85</OccupantID>
+          <OccupantID>S23_BASEMENT_O86</OccupantID>
+          <OccupantID>S23_BASEMENT_O87</OccupantID>
+          <OccupantID>S23_BASEMENT_O88</OccupantID>
+          <OccupantID>S23_BASEMENT_O89</OccupantID>
+          <OccupantID>S23_BASEMENT_O90</OccupantID>
+          <OccupantID>S23_BASEMENT_O91</OccupantID>
+          <OccupantID>S23_BASEMENT_O92</OccupantID>
+          <OccupantID>S23_BASEMENT_O93</OccupantID>
+          <OccupantID>S23_BASEMENT_O94</OccupantID>
+          <OccupantID>S23_BASEMENT_O95</OccupantID>
+          <OccupantID>S23_BASEMENT_O96</OccupantID>
+          <OccupantID>S23_BASEMENT_O97</OccupantID>
+          <OccupantID>S23_BASEMENT_O98</OccupantID>
+          <OccupantID>S23_BASEMENT_O99</OccupantID>
+          <OccupantID>S23_BASEMENT_O100</OccupantID>
+          <OccupantID>S23_BASEMENT_O101</OccupantID>
+          <OccupantID>S23_BASEMENT_O102</OccupantID>
+          <OccupantID>S23_BASEMENT_O103</OccupantID>
+          <OccupantID>S23_BASEMENT_O104</OccupantID>
+          <OccupantID>S23_BASEMENT_O105</OccupantID>
+          <OccupantID>S23_BASEMENT_O106</OccupantID>
+          <OccupantID>S23_BASEMENT_O107</OccupantID>
+          <OccupantID>S23_BASEMENT_O108</OccupantID>
+          <OccupantID>S23_BASEMENT_O109</OccupantID>
+          <OccupantID>S23_BASEMENT_O110</OccupantID>
+          <OccupantID>S23_BASEMENT_O111</OccupantID>
+          <OccupantID>S23_BASEMENT_O112</OccupantID>
+          <OccupantID>S23_BASEMENT_O113</OccupantID>
+          <OccupantID>S23_BASEMENT_O114</OccupantID>
+          <OccupantID>S23_BASEMENT_O115</OccupantID>
+          <OccupantID>S23_BASEMENT_O116</OccupantID>
+          <OccupantID>S23_BASEMENT_O117</OccupantID>
+          <OccupantID>S23_BASEMENT_O118</OccupantID>
+          <OccupantID>S23_BASEMENT_O119</OccupantID>
+          <OccupantID>S23_BASEMENT_O120</OccupantID>
+          <OccupantID>S23_BASEMENT_O121</OccupantID>
+          <OccupantID>S23_BASEMENT_O122</OccupantID>
+          <OccupantID>S23_BASEMENT_O123</OccupantID>
+          <OccupantID>S23_BASEMENT_O124</OccupantID>
+          <OccupantID>S23_BASEMENT_O125</OccupantID>
+          <OccupantID>S23_BASEMENT_O126</OccupantID>
+          <OccupantID>S23_BASEMENT_O127</OccupantID>
+          <OccupantID>S23_BASEMENT_O128</OccupantID>
+          <OccupantID>S23_BASEMENT_O129</OccupantID>
+          <OccupantID>S23_BASEMENT_O130</OccupantID>
+          <OccupantID>S23_BASEMENT_O131</OccupantID>
+          <OccupantID>S23_BASEMENT_O132</OccupantID>
+          <OccupantID>S23_BASEMENT_O133</OccupantID>
+          <OccupantID>S23_BASEMENT_O134</OccupantID>
+          <OccupantID>S23_BASEMENT_O135</OccupantID>
+          <OccupantID>S23_BASEMENT_O136</OccupantID>
+          <OccupantID>S23_BASEMENT_O137</OccupantID>
+          <OccupantID>S23_BASEMENT_O138</OccupantID>
+          <OccupantID>S23_BASEMENT_O139</OccupantID>
+          <OccupantID>S23_BASEMENT_O140</OccupantID>
+          <OccupantID>S23_BASEMENT_O141</OccupantID>
+          <OccupantID>S23_BASEMENT_O142</OccupantID>
+          <OccupantID>S23_BASEMENT_O143</OccupantID>
+          <OccupantID>S23_BASEMENT_O144</OccupantID>
+          <OccupantID>S23_BASEMENT_O145</OccupantID>
+          <OccupantID>S23_BASEMENT_O146</OccupantID>
+        </Space>
+      </Spaces>
+    </Building>
+  </Buildings>
+  <Occupants>
+    <Occupant ID="S7_PERIMETER_TOP_ZN_1_O1">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S7_PERIMETER_TOP_ZN_1_O2">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S7_PERIMETER_TOP_ZN_1_O3">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S7_PERIMETER_TOP_ZN_1_O4">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S7_PERIMETER_TOP_ZN_1_O5">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S7_PERIMETER_TOP_ZN_1_O6">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S7_PERIMETER_TOP_ZN_1_O7">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S7_PERIMETER_TOP_ZN_1_O8">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S7_PERIMETER_TOP_ZN_1_O9">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S7_PERIMETER_TOP_ZN_1_O10">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S7_PERIMETER_TOP_ZN_1_O11">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S7_PERIMETER_TOP_ZN_1_O12">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S7_PERIMETER_TOP_ZN_1_O13">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S7_PERIMETER_TOP_ZN_1_O14">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S7_PERIMETER_TOP_ZN_1_O15">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S7_PERIMETER_TOP_ZN_1_O16">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S8_PERIMETER_TOP_ZN_2_O1">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S8_PERIMETER_TOP_ZN_2_O2">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S8_PERIMETER_TOP_ZN_2_O3">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S8_PERIMETER_TOP_ZN_2_O4">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S8_PERIMETER_TOP_ZN_2_O5">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S8_PERIMETER_TOP_ZN_2_O6">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S8_PERIMETER_TOP_ZN_2_O7">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S8_PERIMETER_TOP_ZN_2_O8">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S8_PERIMETER_TOP_ZN_2_O9">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S8_PERIMETER_TOP_ZN_2_O10">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S9_PERIMETER_TOP_ZN_3_O1">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S9_PERIMETER_TOP_ZN_3_O2">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S9_PERIMETER_TOP_ZN_3_O3">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S9_PERIMETER_TOP_ZN_3_O4">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S9_PERIMETER_TOP_ZN_3_O5">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S9_PERIMETER_TOP_ZN_3_O6">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S9_PERIMETER_TOP_ZN_3_O7">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S9_PERIMETER_TOP_ZN_3_O8">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S9_PERIMETER_TOP_ZN_3_O9">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S9_PERIMETER_TOP_ZN_3_O10">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S9_PERIMETER_TOP_ZN_3_O11">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S9_PERIMETER_TOP_ZN_3_O12">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S9_PERIMETER_TOP_ZN_3_O13">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S9_PERIMETER_TOP_ZN_3_O14">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S9_PERIMETER_TOP_ZN_3_O15">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S9_PERIMETER_TOP_ZN_3_O16">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S10_PERIMETER_TOP_ZN_4_O1">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S10_PERIMETER_TOP_ZN_4_O2">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S10_PERIMETER_TOP_ZN_4_O3">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S10_PERIMETER_TOP_ZN_4_O4">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S10_PERIMETER_TOP_ZN_4_O5">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S10_PERIMETER_TOP_ZN_4_O6">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S10_PERIMETER_TOP_ZN_4_O7">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S10_PERIMETER_TOP_ZN_4_O8">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S10_PERIMETER_TOP_ZN_4_O9">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S10_PERIMETER_TOP_ZN_4_O10">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S11_PERIMETER_BOT_ZN_1_O1">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S11_PERIMETER_BOT_ZN_1_O2">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S11_PERIMETER_BOT_ZN_1_O3">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S11_PERIMETER_BOT_ZN_1_O4">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S11_PERIMETER_BOT_ZN_1_O5">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S11_PERIMETER_BOT_ZN_1_O6">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S11_PERIMETER_BOT_ZN_1_O7">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S11_PERIMETER_BOT_ZN_1_O8">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S11_PERIMETER_BOT_ZN_1_O9">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S11_PERIMETER_BOT_ZN_1_O10">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S11_PERIMETER_BOT_ZN_1_O11">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S11_PERIMETER_BOT_ZN_1_O12">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S11_PERIMETER_BOT_ZN_1_O13">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S11_PERIMETER_BOT_ZN_1_O14">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S11_PERIMETER_BOT_ZN_1_O15">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S11_PERIMETER_BOT_ZN_1_O16">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S12_PERIMETER_BOT_ZN_2_O1">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S12_PERIMETER_BOT_ZN_2_O2">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S12_PERIMETER_BOT_ZN_2_O3">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S12_PERIMETER_BOT_ZN_2_O4">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S12_PERIMETER_BOT_ZN_2_O5">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S12_PERIMETER_BOT_ZN_2_O6">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S12_PERIMETER_BOT_ZN_2_O7">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S12_PERIMETER_BOT_ZN_2_O8">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S12_PERIMETER_BOT_ZN_2_O9">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S12_PERIMETER_BOT_ZN_2_O10">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S13_PERIMETER_BOT_ZN_3_O1">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S13_PERIMETER_BOT_ZN_3_O2">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S13_PERIMETER_BOT_ZN_3_O3">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S13_PERIMETER_BOT_ZN_3_O4">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S13_PERIMETER_BOT_ZN_3_O5">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S13_PERIMETER_BOT_ZN_3_O6">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S13_PERIMETER_BOT_ZN_3_O7">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S13_PERIMETER_BOT_ZN_3_O8">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S13_PERIMETER_BOT_ZN_3_O9">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S13_PERIMETER_BOT_ZN_3_O10">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S13_PERIMETER_BOT_ZN_3_O11">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S13_PERIMETER_BOT_ZN_3_O12">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S13_PERIMETER_BOT_ZN_3_O13">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S13_PERIMETER_BOT_ZN_3_O14">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S13_PERIMETER_BOT_ZN_3_O15">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S13_PERIMETER_BOT_ZN_3_O16">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S14_PERIMETER_BOT_ZN_4_O1">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S14_PERIMETER_BOT_ZN_4_O2">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S14_PERIMETER_BOT_ZN_4_O3">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S14_PERIMETER_BOT_ZN_4_O4">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S14_PERIMETER_BOT_ZN_4_O5">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S14_PERIMETER_BOT_ZN_4_O6">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S14_PERIMETER_BOT_ZN_4_O7">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S14_PERIMETER_BOT_ZN_4_O8">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S14_PERIMETER_BOT_ZN_4_O9">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S14_PERIMETER_BOT_ZN_4_O10">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S15_PERIMETER_MID_ZN_1_O1">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S15_PERIMETER_MID_ZN_1_O2">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S15_PERIMETER_MID_ZN_1_O3">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S15_PERIMETER_MID_ZN_1_O4">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S15_PERIMETER_MID_ZN_1_O5">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S15_PERIMETER_MID_ZN_1_O6">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S15_PERIMETER_MID_ZN_1_O7">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S15_PERIMETER_MID_ZN_1_O8">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S15_PERIMETER_MID_ZN_1_O9">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S15_PERIMETER_MID_ZN_1_O10">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S15_PERIMETER_MID_ZN_1_O11">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S15_PERIMETER_MID_ZN_1_O12">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S15_PERIMETER_MID_ZN_1_O13">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S15_PERIMETER_MID_ZN_1_O14">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S15_PERIMETER_MID_ZN_1_O15">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S15_PERIMETER_MID_ZN_1_O16">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S16_PERIMETER_MID_ZN_2_O1">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S16_PERIMETER_MID_ZN_2_O2">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S16_PERIMETER_MID_ZN_2_O3">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S16_PERIMETER_MID_ZN_2_O4">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S16_PERIMETER_MID_ZN_2_O5">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S16_PERIMETER_MID_ZN_2_O6">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S16_PERIMETER_MID_ZN_2_O7">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S16_PERIMETER_MID_ZN_2_O8">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S16_PERIMETER_MID_ZN_2_O9">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S16_PERIMETER_MID_ZN_2_O10">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S17_PERIMETER_MID_ZN_3_O1">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S17_PERIMETER_MID_ZN_3_O2">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S17_PERIMETER_MID_ZN_3_O3">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S17_PERIMETER_MID_ZN_3_O4">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S17_PERIMETER_MID_ZN_3_O5">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S17_PERIMETER_MID_ZN_3_O6">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S17_PERIMETER_MID_ZN_3_O7">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S17_PERIMETER_MID_ZN_3_O8">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S17_PERIMETER_MID_ZN_3_O9">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S17_PERIMETER_MID_ZN_3_O10">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S17_PERIMETER_MID_ZN_3_O11">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S17_PERIMETER_MID_ZN_3_O12">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S17_PERIMETER_MID_ZN_3_O13">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S17_PERIMETER_MID_ZN_3_O14">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S17_PERIMETER_MID_ZN_3_O15">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S17_PERIMETER_MID_ZN_3_O16">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S18_PERIMETER_MID_ZN_4_O1">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S18_PERIMETER_MID_ZN_4_O2">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S18_PERIMETER_MID_ZN_4_O3">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S18_PERIMETER_MID_ZN_4_O4">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S18_PERIMETER_MID_ZN_4_O5">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S18_PERIMETER_MID_ZN_4_O6">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S18_PERIMETER_MID_ZN_4_O7">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S18_PERIMETER_MID_ZN_4_O8">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S18_PERIMETER_MID_ZN_4_O9">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S18_PERIMETER_MID_ZN_4_O10">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O1">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O2">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O3">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O4">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O5">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O6">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O7">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O8">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O9">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O10">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O11">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O12">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O13">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O14">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O15">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O16">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O17">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O18">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O19">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O20">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O21">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O22">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O23">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O24">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O25">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O26">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O27">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O28">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O29">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O30">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O31">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O32">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O33">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O34">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O35">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O36">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O37">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O38">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O39">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O40">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O41">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O42">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O43">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O44">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O45">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O46">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O47">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O48">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O49">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O50">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O51">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O52">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O53">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O54">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O55">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O56">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O57">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O58">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O59">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O60">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O61">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O62">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O63">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O64">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O65">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O66">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O67">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O68">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O69">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O70">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O71">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O72">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O73">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O74">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O75">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O76">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O77">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O78">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O79">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O80">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O81">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O82">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O83">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O84">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O85">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O86">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O87">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O88">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O89">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O90">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O91">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O92">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O93">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O94">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O95">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O96">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O97">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O98">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O99">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O100">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O101">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O102">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O103">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O104">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O105">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O106">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O107">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O108">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O109">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O110">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O111">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O112">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O113">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O114">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O115">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O116">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O117">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O118">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O119">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O120">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O121">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O122">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O123">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O124">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O125">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O126">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O127">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O128">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O129">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O130">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O131">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O132">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O133">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O134">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O135">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O136">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O137">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O138">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O139">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O140">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O141">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Administrator</JobType>
+      <MovementBehaviorID>Administrator_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O142">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O143">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O144">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Manager</JobType>
+      <MovementBehaviorID>Manager_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O145">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+    <Occupant ID="S23_BASEMENT_O146">
+      <LifeStyle>Norm</LifeStyle>
+      <JobType>Regular staff</JobType>
+      <MovementBehaviorID>Regular_staff_0</MovementBehaviorID>
+    </Occupant>
+  </Occupants>
+  <Behaviors>
+    <MovementBehavior ID="Regular_staff_0">
+      <SeasonType>All</SeasonType>
+      <DayofWeek>Weekdays</DayofWeek>
+      <RandomMovementEvent>
+        <SpaceOccupancy>
+          <SpaceCategory>OwnOffice</SpaceCategory>
+          <PercentTimePresence>70.0</PercentTimePresence>
+          <Duration>PT60M</Duration>
+        </SpaceOccupancy>
+        <SpaceOccupancy>
+          <SpaceCategory>OtherOffice</SpaceCategory>
+          <PercentTimePresence>10.0</PercentTimePresence>
+          <Duration>PT20M</Duration>
+        </SpaceOccupancy>
+        <SpaceOccupancy>
+          <SpaceCategory>MeetingRoom</SpaceCategory>
+          <PercentTimePresence>10.0</PercentTimePresence>
+          <Duration>PT60M</Duration>
+        </SpaceOccupancy>
+        <SpaceOccupancy>
+          <SpaceCategory>AuxRoom</SpaceCategory>
+          <PercentTimePresence>5.0</PercentTimePresence>
+          <Duration>PT10M</Duration>
+        </SpaceOccupancy>
+        <SpaceOccupancy>
+          <SpaceCategory>Outdoor</SpaceCategory>
+          <PercentTimePresence>5.0</PercentTimePresence>
+          <Duration>PT20M</Duration>
+        </SpaceOccupancy>
+      </RandomMovementEvent>
+      <StatusTransitionEvent>
+        <EventType>Arrival</EventType>
+        <EventOccurModel>
+          <NormalProbabilityModel>
+            <EarlyOccurTime>08:00:00</EarlyOccurTime>
+            <TypicalOccurTime>08:30:00</TypicalOccurTime>
+          </NormalProbabilityModel>
+        </EventOccurModel>
+      </StatusTransitionEvent>
+      <StatusTransitionEvent>
+        <EventType>Departure</EventType>
+        <EventOccurModel>
+          <NormalProbabilityModel>
+            <EarlyOccurTime>17:00:00</EarlyOccurTime>
+            <TypicalOccurTime>17:30:00</TypicalOccurTime>
+          </NormalProbabilityModel>
+        </EventOccurModel>
+      </StatusTransitionEvent>
+      <StatusTransitionEvent>
+        <EventType>ShortTermLeaving</EventType>
+        <EventOccurModel>
+          <NormalProbabilityModel>
+            <EarlyOccurTime>11:30:00</EarlyOccurTime>
+            <TypicalOccurTime>12:00:00</TypicalOccurTime>
+          </NormalProbabilityModel>
+        </EventOccurModel>
+        <EventDuration>
+          <NormalDurationModel>
+            <TypicalDuration>PT60M</TypicalDuration>
+            <MinimumDuration>PT45M</MinimumDuration>
+          </NormalDurationModel>
+        </EventDuration>
+      </StatusTransitionEvent>
+    </MovementBehavior>
+    <MovementBehavior ID="Administrator_0">
+      <SeasonType>All</SeasonType>
+      <DayofWeek>Weekdays</DayofWeek>
+      <RandomMovementEvent>
+        <SpaceOccupancy>
+          <SpaceCategory>OwnOffice</SpaceCategory>
+          <PercentTimePresence>50.0</PercentTimePresence>
+          <Duration>PT60M</Duration>
+        </SpaceOccupancy>
+        <SpaceOccupancy>
+          <SpaceCategory>OtherOffice</SpaceCategory>
+          <PercentTimePresence>10.0</PercentTimePresence>
+          <Duration>PT20M</Duration>
+        </SpaceOccupancy>
+        <SpaceOccupancy>
+          <SpaceCategory>MeetingRoom</SpaceCategory>
+          <PercentTimePresence>30.0</PercentTimePresence>
+          <Duration>PT60M</Duration>
+        </SpaceOccupancy>
+        <SpaceOccupancy>
+          <SpaceCategory>AuxRoom</SpaceCategory>
+          <PercentTimePresence>5.0</PercentTimePresence>
+          <Duration>PT10M</Duration>
+        </SpaceOccupancy>
+        <SpaceOccupancy>
+          <SpaceCategory>Outdoor</SpaceCategory>
+          <PercentTimePresence>5.0</PercentTimePresence>
+          <Duration>PT20M</Duration>
+        </SpaceOccupancy>
+      </RandomMovementEvent>
+      <StatusTransitionEvent>
+        <EventType>Arrival</EventType>
+        <EventOccurModel>
+          <NormalProbabilityModel>
+            <EarlyOccurTime>08:15:00</EarlyOccurTime>
+            <TypicalOccurTime>08:30:00</TypicalOccurTime>
+          </NormalProbabilityModel>
+        </EventOccurModel>
+      </StatusTransitionEvent>
+      <StatusTransitionEvent>
+        <EventType>Departure</EventType>
+        <EventOccurModel>
+          <NormalProbabilityModel>
+            <EarlyOccurTime>17:15:00</EarlyOccurTime>
+            <TypicalOccurTime>17:30:00</TypicalOccurTime>
+          </NormalProbabilityModel>
+        </EventOccurModel>
+      </StatusTransitionEvent>
+      <StatusTransitionEvent>
+        <EventType>ShortTermLeaving</EventType>
+        <EventOccurModel>
+          <NormalProbabilityModel>
+            <EarlyOccurTime>11:30:00</EarlyOccurTime>
+            <TypicalOccurTime>12:00:00</TypicalOccurTime>
+          </NormalProbabilityModel>
+        </EventOccurModel>
+        <EventDuration>
+          <NormalDurationModel>
+            <TypicalDuration>PT60M</TypicalDuration>
+            <MinimumDuration>PT45M</MinimumDuration>
+          </NormalDurationModel>
+        </EventDuration>
+      </StatusTransitionEvent>
+    </MovementBehavior>
+    <MovementBehavior ID="Manager_0">
+      <SeasonType>All</SeasonType>
+      <DayofWeek>Weekdays</DayofWeek>
+      <RandomMovementEvent>
+        <SpaceOccupancy>
+          <SpaceCategory>OwnOffice</SpaceCategory>
+          <PercentTimePresence>50.0</PercentTimePresence>
+          <Duration>PT60M</Duration>
+        </SpaceOccupancy>
+        <SpaceOccupancy>
+          <SpaceCategory>OtherOffice</SpaceCategory>
+          <PercentTimePresence>5.0</PercentTimePresence>
+          <Duration>PT20M</Duration>
+        </SpaceOccupancy>
+        <SpaceOccupancy>
+          <SpaceCategory>MeetingRoom</SpaceCategory>
+          <PercentTimePresence>35.0</PercentTimePresence>
+          <Duration>PT60M</Duration>
+        </SpaceOccupancy>
+        <SpaceOccupancy>
+          <SpaceCategory>AuxRoom</SpaceCategory>
+          <PercentTimePresence>5.0</PercentTimePresence>
+          <Duration>PT10M</Duration>
+        </SpaceOccupancy>
+        <SpaceOccupancy>
+          <SpaceCategory>Outdoor</SpaceCategory>
+          <PercentTimePresence>5.0</PercentTimePresence>
+          <Duration>PT20M</Duration>
+        </SpaceOccupancy>
+      </RandomMovementEvent>
+      <StatusTransitionEvent>
+        <EventType>Arrival</EventType>
+        <EventOccurModel>
+          <NormalProbabilityModel>
+            <EarlyOccurTime>08:30:00</EarlyOccurTime>
+            <TypicalOccurTime>09:00:00</TypicalOccurTime>
+          </NormalProbabilityModel>
+        </EventOccurModel>
+      </StatusTransitionEvent>
+      <StatusTransitionEvent>
+        <EventType>Departure</EventType>
+        <EventOccurModel>
+          <NormalProbabilityModel>
+            <EarlyOccurTime>16:30:00</EarlyOccurTime>
+            <TypicalOccurTime>17:00:00</TypicalOccurTime>
+          </NormalProbabilityModel>
+        </EventOccurModel>
+      </StatusTransitionEvent>
+      <StatusTransitionEvent>
+        <EventType>ShortTermLeaving</EventType>
+        <EventOccurModel>
+          <NormalProbabilityModel>
+            <EarlyOccurTime>11:30:00</EarlyOccurTime>
+            <TypicalOccurTime>12:00:00</TypicalOccurTime>
+          </NormalProbabilityModel>
+        </EventOccurModel>
+        <EventDuration>
+          <NormalDurationModel>
+            <TypicalDuration>PT60M</TypicalDuration>
+            <MinimumDuration>PT45M</MinimumDuration>
+          </NormalDurationModel>
+        </EventDuration>
+      </StatusTransitionEvent>
+    </MovementBehavior>
+  </Behaviors>
+  <Holidays>
+    <Holiday>
+      <Date>2020-01-01</Date>
+    </Holiday>
+    <Holiday>
+      <Date>2020-01-20</Date>
+    </Holiday>
+    <Holiday>
+      <Date>2020-02-17</Date>
+    </Holiday>
+    <Holiday>
+      <Date>2020-05-25</Date>
+    </Holiday>
+    <Holiday>
+      <Date>2020-07-04</Date>
+    </Holiday>
+    <Holiday>
+      <Date>2020-09-07</Date>
+    </Holiday>
+    <Holiday>
+      <Date>2020-10-12</Date>
+    </Holiday>
+    <Holiday>
+      <Date>2020-11-11</Date>
+    </Holiday>
+    <Holiday>
+      <Date>2020-11-26</Date>
+    </Holiday>
+    <Holiday>
+      <Date>2020-12-25</Date>
+    </Holiday>
+  </Holidays>
+</OccupantBehavior>

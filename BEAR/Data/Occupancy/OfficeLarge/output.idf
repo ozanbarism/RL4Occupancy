@@ -1,0 +1,592 @@
+Schedule:Compact,
+obFMU Activity Schedule, !- Name
+obFMU Any Number,        !- Schedule Type Limits Name
+Through: 12/31,          !- Field 1
+For: AllDays,            !- Field 2
+Until: 24:00,            !- Field 3
+110.7;                   !- Field 4
+
+ScheduleTypeLimits,
+obFMU Fraction,          !- Name
+0.0,                     !- Lower Limit Value
+1.0,                     !- Upper Limit Value
+CONTINUOUS;              !- Numeric Type
+
+ScheduleTypeLimits,
+obFMU Any Number;        !- Name
+
+Zone,
+S1_CORE_BOTTOM;                   !- Name
+People,
+S1_CORE_BOTTOM People,            !- Name
+S1_CORE_BOTTOM,                   !- Zone or ZoneList Name
+S1_CORE_BOTTOM People Schedule,   !- Number of People Schedule Name
+People,                  !- Number of People Calculation Method
+12,                       !- Number of People
+,                        !- People per Zone Floor Area {person/m2}
+,                        !- Zone Floor Area per Person {m2/person}
+0.3,                     !- Fraction Radiant
+AUTOCALCULATE,           !- Sensible Heat Fraction
+obFMU Activity Schedule; !- Activity Level Schedule Name
+
+Schedule:File,
+S1_CORE_BOTTOM People Schedule,   !- Name
+obFMU Fraction,          !- Schedule Type Limits Name
+C:/Sites/OccupancySimulator/db/user_data/output_254127723_package/output_IDF.csv,    !- File Name
+4,                       !- Column Number
+7,                       !- Rows to Skip at Top
+8784,                     !- Number of Hours of Data
+Comma,                   !- Column Separator
+No,                      !- Interpolate to Timestep
+10;                      !- Minutes per Item
+
+Zone,
+S2_TOPFLOOR_PLENUM;                   !- Name
+People,
+S2_TOPFLOOR_PLENUM People,            !- Name
+S2_TOPFLOOR_PLENUM,                   !- Zone or ZoneList Name
+S2_TOPFLOOR_PLENUM People Schedule,   !- Number of People Schedule Name
+People,                  !- Number of People Calculation Method
+12,                       !- Number of People
+,                        !- People per Zone Floor Area {person/m2}
+,                        !- Zone Floor Area per Person {m2/person}
+0.3,                     !- Fraction Radiant
+AUTOCALCULATE,           !- Sensible Heat Fraction
+obFMU Activity Schedule; !- Activity Level Schedule Name
+
+Schedule:File,
+S2_TOPFLOOR_PLENUM People Schedule,   !- Name
+obFMU Fraction,          !- Schedule Type Limits Name
+C:/Sites/OccupancySimulator/db/user_data/output_254127723_package/output_IDF.csv,    !- File Name
+5,                       !- Column Number
+7,                       !- Rows to Skip at Top
+8784,                     !- Number of Hours of Data
+Comma,                   !- Column Separator
+No,                      !- Interpolate to Timestep
+10;                      !- Minutes per Item
+
+Zone,
+S3_MIDFLOOR_PLENUM;                   !- Name
+People,
+S3_MIDFLOOR_PLENUM People,            !- Name
+S3_MIDFLOOR_PLENUM,                   !- Zone or ZoneList Name
+S3_MIDFLOOR_PLENUM People Schedule,   !- Number of People Schedule Name
+People,                  !- Number of People Calculation Method
+10,                       !- Number of People
+,                        !- People per Zone Floor Area {person/m2}
+,                        !- Zone Floor Area per Person {m2/person}
+0.3,                     !- Fraction Radiant
+AUTOCALCULATE,           !- Sensible Heat Fraction
+obFMU Activity Schedule; !- Activity Level Schedule Name
+
+Schedule:File,
+S3_MIDFLOOR_PLENUM People Schedule,   !- Name
+obFMU Fraction,          !- Schedule Type Limits Name
+C:/Sites/OccupancySimulator/db/user_data/output_254127723_package/output_IDF.csv,    !- File Name
+6,                       !- Column Number
+7,                       !- Rows to Skip at Top
+8784,                     !- Number of Hours of Data
+Comma,                   !- Column Separator
+No,                      !- Interpolate to Timestep
+10;                      !- Minutes per Item
+
+Zone,
+S4_GROUNDFLOOR_PLENUM;                   !- Name
+People,
+S4_GROUNDFLOOR_PLENUM People,            !- Name
+S4_GROUNDFLOOR_PLENUM,                   !- Zone or ZoneList Name
+S4_GROUNDFLOOR_PLENUM People Schedule,   !- Number of People Schedule Name
+People,                  !- Number of People Calculation Method
+11,                       !- Number of People
+,                        !- People per Zone Floor Area {person/m2}
+,                        !- Zone Floor Area per Person {m2/person}
+0.3,                     !- Fraction Radiant
+AUTOCALCULATE,           !- Sensible Heat Fraction
+obFMU Activity Schedule; !- Activity Level Schedule Name
+
+Schedule:File,
+S4_GROUNDFLOOR_PLENUM People Schedule,   !- Name
+obFMU Fraction,          !- Schedule Type Limits Name
+C:/Sites/OccupancySimulator/db/user_data/output_254127723_package/output_IDF.csv,    !- File Name
+7,                       !- Column Number
+7,                       !- Rows to Skip at Top
+8784,                     !- Number of Hours of Data
+Comma,                   !- Column Separator
+No,                      !- Interpolate to Timestep
+10;                      !- Minutes per Item
+
+Zone,
+S5_CORE_MID;                   !- Name
+People,
+S5_CORE_MID People,            !- Name
+S5_CORE_MID,                   !- Zone or ZoneList Name
+S5_CORE_MID People Schedule,   !- Number of People Schedule Name
+People,                  !- Number of People Calculation Method
+12,                       !- Number of People
+,                        !- People per Zone Floor Area {person/m2}
+,                        !- Zone Floor Area per Person {m2/person}
+0.3,                     !- Fraction Radiant
+AUTOCALCULATE,           !- Sensible Heat Fraction
+obFMU Activity Schedule; !- Activity Level Schedule Name
+
+Schedule:File,
+S5_CORE_MID People Schedule,   !- Name
+obFMU Fraction,          !- Schedule Type Limits Name
+C:/Sites/OccupancySimulator/db/user_data/output_254127723_package/output_IDF.csv,    !- File Name
+8,                       !- Column Number
+7,                       !- Rows to Skip at Top
+8784,                     !- Number of Hours of Data
+Comma,                   !- Column Separator
+No,                      !- Interpolate to Timestep
+10;                      !- Minutes per Item
+
+Zone,
+S6_CORE_TOP;                   !- Name
+People,
+S6_CORE_TOP People,            !- Name
+S6_CORE_TOP,                   !- Zone or ZoneList Name
+S6_CORE_TOP People Schedule,   !- Number of People Schedule Name
+People,                  !- Number of People Calculation Method
+12,                       !- Number of People
+,                        !- People per Zone Floor Area {person/m2}
+,                        !- Zone Floor Area per Person {m2/person}
+0.3,                     !- Fraction Radiant
+AUTOCALCULATE,           !- Sensible Heat Fraction
+obFMU Activity Schedule; !- Activity Level Schedule Name
+
+Schedule:File,
+S6_CORE_TOP People Schedule,   !- Name
+obFMU Fraction,          !- Schedule Type Limits Name
+C:/Sites/OccupancySimulator/db/user_data/output_254127723_package/output_IDF.csv,    !- File Name
+9,                       !- Column Number
+7,                       !- Rows to Skip at Top
+8784,                     !- Number of Hours of Data
+Comma,                   !- Column Separator
+No,                      !- Interpolate to Timestep
+10;                      !- Minutes per Item
+
+Zone,
+S7_PERIMETER_TOP_ZN_1;                   !- Name
+People,
+S7_PERIMETER_TOP_ZN_1 People,            !- Name
+S7_PERIMETER_TOP_ZN_1,                   !- Zone or ZoneList Name
+S7_PERIMETER_TOP_ZN_1 People Schedule,   !- Number of People Schedule Name
+People,                  !- Number of People Calculation Method
+23,                       !- Number of People
+,                        !- People per Zone Floor Area {person/m2}
+,                        !- Zone Floor Area per Person {m2/person}
+0.3,                     !- Fraction Radiant
+AUTOCALCULATE,           !- Sensible Heat Fraction
+obFMU Activity Schedule; !- Activity Level Schedule Name
+
+Schedule:File,
+S7_PERIMETER_TOP_ZN_1 People Schedule,   !- Name
+obFMU Fraction,          !- Schedule Type Limits Name
+C:/Sites/OccupancySimulator/db/user_data/output_254127723_package/output_IDF.csv,    !- File Name
+10,                       !- Column Number
+7,                       !- Rows to Skip at Top
+8784,                     !- Number of Hours of Data
+Comma,                   !- Column Separator
+No,                      !- Interpolate to Timestep
+10;                      !- Minutes per Item
+
+Zone,
+S8_PERIMETER_TOP_ZN_2;                   !- Name
+People,
+S8_PERIMETER_TOP_ZN_2 People,            !- Name
+S8_PERIMETER_TOP_ZN_2,                   !- Zone or ZoneList Name
+S8_PERIMETER_TOP_ZN_2 People Schedule,   !- Number of People Schedule Name
+People,                  !- Number of People Calculation Method
+19,                       !- Number of People
+,                        !- People per Zone Floor Area {person/m2}
+,                        !- Zone Floor Area per Person {m2/person}
+0.3,                     !- Fraction Radiant
+AUTOCALCULATE,           !- Sensible Heat Fraction
+obFMU Activity Schedule; !- Activity Level Schedule Name
+
+Schedule:File,
+S8_PERIMETER_TOP_ZN_2 People Schedule,   !- Name
+obFMU Fraction,          !- Schedule Type Limits Name
+C:/Sites/OccupancySimulator/db/user_data/output_254127723_package/output_IDF.csv,    !- File Name
+11,                       !- Column Number
+7,                       !- Rows to Skip at Top
+8784,                     !- Number of Hours of Data
+Comma,                   !- Column Separator
+No,                      !- Interpolate to Timestep
+10;                      !- Minutes per Item
+
+Zone,
+S9_PERIMETER_TOP_ZN_3;                   !- Name
+People,
+S9_PERIMETER_TOP_ZN_3 People,            !- Name
+S9_PERIMETER_TOP_ZN_3,                   !- Zone or ZoneList Name
+S9_PERIMETER_TOP_ZN_3 People Schedule,   !- Number of People Schedule Name
+People,                  !- Number of People Calculation Method
+23,                       !- Number of People
+,                        !- People per Zone Floor Area {person/m2}
+,                        !- Zone Floor Area per Person {m2/person}
+0.3,                     !- Fraction Radiant
+AUTOCALCULATE,           !- Sensible Heat Fraction
+obFMU Activity Schedule; !- Activity Level Schedule Name
+
+Schedule:File,
+S9_PERIMETER_TOP_ZN_3 People Schedule,   !- Name
+obFMU Fraction,          !- Schedule Type Limits Name
+C:/Sites/OccupancySimulator/db/user_data/output_254127723_package/output_IDF.csv,    !- File Name
+12,                       !- Column Number
+7,                       !- Rows to Skip at Top
+8784,                     !- Number of Hours of Data
+Comma,                   !- Column Separator
+No,                      !- Interpolate to Timestep
+10;                      !- Minutes per Item
+
+Zone,
+S10_PERIMETER_TOP_ZN_4;                   !- Name
+People,
+S10_PERIMETER_TOP_ZN_4 People,            !- Name
+S10_PERIMETER_TOP_ZN_4,                   !- Zone or ZoneList Name
+S10_PERIMETER_TOP_ZN_4 People Schedule,   !- Number of People Schedule Name
+People,                  !- Number of People Calculation Method
+20,                       !- Number of People
+,                        !- People per Zone Floor Area {person/m2}
+,                        !- Zone Floor Area per Person {m2/person}
+0.3,                     !- Fraction Radiant
+AUTOCALCULATE,           !- Sensible Heat Fraction
+obFMU Activity Schedule; !- Activity Level Schedule Name
+
+Schedule:File,
+S10_PERIMETER_TOP_ZN_4 People Schedule,   !- Name
+obFMU Fraction,          !- Schedule Type Limits Name
+C:/Sites/OccupancySimulator/db/user_data/output_254127723_package/output_IDF.csv,    !- File Name
+13,                       !- Column Number
+7,                       !- Rows to Skip at Top
+8784,                     !- Number of Hours of Data
+Comma,                   !- Column Separator
+No,                      !- Interpolate to Timestep
+10;                      !- Minutes per Item
+
+Zone,
+S11_PERIMETER_BOT_ZN_1;                   !- Name
+People,
+S11_PERIMETER_BOT_ZN_1 People,            !- Name
+S11_PERIMETER_BOT_ZN_1,                   !- Zone or ZoneList Name
+S11_PERIMETER_BOT_ZN_1 People Schedule,   !- Number of People Schedule Name
+People,                  !- Number of People Calculation Method
+23,                       !- Number of People
+,                        !- People per Zone Floor Area {person/m2}
+,                        !- Zone Floor Area per Person {m2/person}
+0.3,                     !- Fraction Radiant
+AUTOCALCULATE,           !- Sensible Heat Fraction
+obFMU Activity Schedule; !- Activity Level Schedule Name
+
+Schedule:File,
+S11_PERIMETER_BOT_ZN_1 People Schedule,   !- Name
+obFMU Fraction,          !- Schedule Type Limits Name
+C:/Sites/OccupancySimulator/db/user_data/output_254127723_package/output_IDF.csv,    !- File Name
+14,                       !- Column Number
+7,                       !- Rows to Skip at Top
+8784,                     !- Number of Hours of Data
+Comma,                   !- Column Separator
+No,                      !- Interpolate to Timestep
+10;                      !- Minutes per Item
+
+Zone,
+S12_PERIMETER_BOT_ZN_2;                   !- Name
+People,
+S12_PERIMETER_BOT_ZN_2 People,            !- Name
+S12_PERIMETER_BOT_ZN_2,                   !- Zone or ZoneList Name
+S12_PERIMETER_BOT_ZN_2 People Schedule,   !- Number of People Schedule Name
+People,                  !- Number of People Calculation Method
+19,                       !- Number of People
+,                        !- People per Zone Floor Area {person/m2}
+,                        !- Zone Floor Area per Person {m2/person}
+0.3,                     !- Fraction Radiant
+AUTOCALCULATE,           !- Sensible Heat Fraction
+obFMU Activity Schedule; !- Activity Level Schedule Name
+
+Schedule:File,
+S12_PERIMETER_BOT_ZN_2 People Schedule,   !- Name
+obFMU Fraction,          !- Schedule Type Limits Name
+C:/Sites/OccupancySimulator/db/user_data/output_254127723_package/output_IDF.csv,    !- File Name
+15,                       !- Column Number
+7,                       !- Rows to Skip at Top
+8784,                     !- Number of Hours of Data
+Comma,                   !- Column Separator
+No,                      !- Interpolate to Timestep
+10;                      !- Minutes per Item
+
+Zone,
+S13_PERIMETER_BOT_ZN_3;                   !- Name
+People,
+S13_PERIMETER_BOT_ZN_3 People,            !- Name
+S13_PERIMETER_BOT_ZN_3,                   !- Zone or ZoneList Name
+S13_PERIMETER_BOT_ZN_3 People Schedule,   !- Number of People Schedule Name
+People,                  !- Number of People Calculation Method
+25,                       !- Number of People
+,                        !- People per Zone Floor Area {person/m2}
+,                        !- Zone Floor Area per Person {m2/person}
+0.3,                     !- Fraction Radiant
+AUTOCALCULATE,           !- Sensible Heat Fraction
+obFMU Activity Schedule; !- Activity Level Schedule Name
+
+Schedule:File,
+S13_PERIMETER_BOT_ZN_3 People Schedule,   !- Name
+obFMU Fraction,          !- Schedule Type Limits Name
+C:/Sites/OccupancySimulator/db/user_data/output_254127723_package/output_IDF.csv,    !- File Name
+16,                       !- Column Number
+7,                       !- Rows to Skip at Top
+8784,                     !- Number of Hours of Data
+Comma,                   !- Column Separator
+No,                      !- Interpolate to Timestep
+10;                      !- Minutes per Item
+
+Zone,
+S14_PERIMETER_BOT_ZN_4;                   !- Name
+People,
+S14_PERIMETER_BOT_ZN_4 People,            !- Name
+S14_PERIMETER_BOT_ZN_4,                   !- Zone or ZoneList Name
+S14_PERIMETER_BOT_ZN_4 People Schedule,   !- Number of People Schedule Name
+People,                  !- Number of People Calculation Method
+19,                       !- Number of People
+,                        !- People per Zone Floor Area {person/m2}
+,                        !- Zone Floor Area per Person {m2/person}
+0.3,                     !- Fraction Radiant
+AUTOCALCULATE,           !- Sensible Heat Fraction
+obFMU Activity Schedule; !- Activity Level Schedule Name
+
+Schedule:File,
+S14_PERIMETER_BOT_ZN_4 People Schedule,   !- Name
+obFMU Fraction,          !- Schedule Type Limits Name
+C:/Sites/OccupancySimulator/db/user_data/output_254127723_package/output_IDF.csv,    !- File Name
+17,                       !- Column Number
+7,                       !- Rows to Skip at Top
+8784,                     !- Number of Hours of Data
+Comma,                   !- Column Separator
+No,                      !- Interpolate to Timestep
+10;                      !- Minutes per Item
+
+Zone,
+S15_PERIMETER_MID_ZN_1;                   !- Name
+People,
+S15_PERIMETER_MID_ZN_1 People,            !- Name
+S15_PERIMETER_MID_ZN_1,                   !- Zone or ZoneList Name
+S15_PERIMETER_MID_ZN_1 People Schedule,   !- Number of People Schedule Name
+People,                  !- Number of People Calculation Method
+23,                       !- Number of People
+,                        !- People per Zone Floor Area {person/m2}
+,                        !- Zone Floor Area per Person {m2/person}
+0.3,                     !- Fraction Radiant
+AUTOCALCULATE,           !- Sensible Heat Fraction
+obFMU Activity Schedule; !- Activity Level Schedule Name
+
+Schedule:File,
+S15_PERIMETER_MID_ZN_1 People Schedule,   !- Name
+obFMU Fraction,          !- Schedule Type Limits Name
+C:/Sites/OccupancySimulator/db/user_data/output_254127723_package/output_IDF.csv,    !- File Name
+18,                       !- Column Number
+7,                       !- Rows to Skip at Top
+8784,                     !- Number of Hours of Data
+Comma,                   !- Column Separator
+No,                      !- Interpolate to Timestep
+10;                      !- Minutes per Item
+
+Zone,
+S16_PERIMETER_MID_ZN_2;                   !- Name
+People,
+S16_PERIMETER_MID_ZN_2 People,            !- Name
+S16_PERIMETER_MID_ZN_2,                   !- Zone or ZoneList Name
+S16_PERIMETER_MID_ZN_2 People Schedule,   !- Number of People Schedule Name
+People,                  !- Number of People Calculation Method
+19,                       !- Number of People
+,                        !- People per Zone Floor Area {person/m2}
+,                        !- Zone Floor Area per Person {m2/person}
+0.3,                     !- Fraction Radiant
+AUTOCALCULATE,           !- Sensible Heat Fraction
+obFMU Activity Schedule; !- Activity Level Schedule Name
+
+Schedule:File,
+S16_PERIMETER_MID_ZN_2 People Schedule,   !- Name
+obFMU Fraction,          !- Schedule Type Limits Name
+C:/Sites/OccupancySimulator/db/user_data/output_254127723_package/output_IDF.csv,    !- File Name
+19,                       !- Column Number
+7,                       !- Rows to Skip at Top
+8784,                     !- Number of Hours of Data
+Comma,                   !- Column Separator
+No,                      !- Interpolate to Timestep
+10;                      !- Minutes per Item
+
+Zone,
+S17_PERIMETER_MID_ZN_3;                   !- Name
+People,
+S17_PERIMETER_MID_ZN_3 People,            !- Name
+S17_PERIMETER_MID_ZN_3,                   !- Zone or ZoneList Name
+S17_PERIMETER_MID_ZN_3 People Schedule,   !- Number of People Schedule Name
+People,                  !- Number of People Calculation Method
+24,                       !- Number of People
+,                        !- People per Zone Floor Area {person/m2}
+,                        !- Zone Floor Area per Person {m2/person}
+0.3,                     !- Fraction Radiant
+AUTOCALCULATE,           !- Sensible Heat Fraction
+obFMU Activity Schedule; !- Activity Level Schedule Name
+
+Schedule:File,
+S17_PERIMETER_MID_ZN_3 People Schedule,   !- Name
+obFMU Fraction,          !- Schedule Type Limits Name
+C:/Sites/OccupancySimulator/db/user_data/output_254127723_package/output_IDF.csv,    !- File Name
+20,                       !- Column Number
+7,                       !- Rows to Skip at Top
+8784,                     !- Number of Hours of Data
+Comma,                   !- Column Separator
+No,                      !- Interpolate to Timestep
+10;                      !- Minutes per Item
+
+Zone,
+S18_PERIMETER_MID_ZN_4;                   !- Name
+People,
+S18_PERIMETER_MID_ZN_4 People,            !- Name
+S18_PERIMETER_MID_ZN_4,                   !- Zone or ZoneList Name
+S18_PERIMETER_MID_ZN_4 People Schedule,   !- Number of People Schedule Name
+People,                  !- Number of People Calculation Method
+18,                       !- Number of People
+,                        !- People per Zone Floor Area {person/m2}
+,                        !- Zone Floor Area per Person {m2/person}
+0.3,                     !- Fraction Radiant
+AUTOCALCULATE,           !- Sensible Heat Fraction
+obFMU Activity Schedule; !- Activity Level Schedule Name
+
+Schedule:File,
+S18_PERIMETER_MID_ZN_4 People Schedule,   !- Name
+obFMU Fraction,          !- Schedule Type Limits Name
+C:/Sites/OccupancySimulator/db/user_data/output_254127723_package/output_IDF.csv,    !- File Name
+21,                       !- Column Number
+7,                       !- Rows to Skip at Top
+8784,                     !- Number of Hours of Data
+Comma,                   !- Column Separator
+No,                      !- Interpolate to Timestep
+10;                      !- Minutes per Item
+
+Zone,
+S19_DATACENTER_BOT_ZN_6;                   !- Name
+People,
+S19_DATACENTER_BOT_ZN_6 People,            !- Name
+S19_DATACENTER_BOT_ZN_6,                   !- Zone or ZoneList Name
+S19_DATACENTER_BOT_ZN_6 People Schedule,   !- Number of People Schedule Name
+People,                  !- Number of People Calculation Method
+10,                       !- Number of People
+,                        !- People per Zone Floor Area {person/m2}
+,                        !- Zone Floor Area per Person {m2/person}
+0.3,                     !- Fraction Radiant
+AUTOCALCULATE,           !- Sensible Heat Fraction
+obFMU Activity Schedule; !- Activity Level Schedule Name
+
+Schedule:File,
+S19_DATACENTER_BOT_ZN_6 People Schedule,   !- Name
+obFMU Fraction,          !- Schedule Type Limits Name
+C:/Sites/OccupancySimulator/db/user_data/output_254127723_package/output_IDF.csv,    !- File Name
+22,                       !- Column Number
+7,                       !- Rows to Skip at Top
+8784,                     !- Number of Hours of Data
+Comma,                   !- Column Separator
+No,                      !- Interpolate to Timestep
+10;                      !- Minutes per Item
+
+Zone,
+S20_DATACENTER_MID_ZN_6;                   !- Name
+People,
+S20_DATACENTER_MID_ZN_6 People,            !- Name
+S20_DATACENTER_MID_ZN_6,                   !- Zone or ZoneList Name
+S20_DATACENTER_MID_ZN_6 People Schedule,   !- Number of People Schedule Name
+People,                  !- Number of People Calculation Method
+11,                       !- Number of People
+,                        !- People per Zone Floor Area {person/m2}
+,                        !- Zone Floor Area per Person {m2/person}
+0.3,                     !- Fraction Radiant
+AUTOCALCULATE,           !- Sensible Heat Fraction
+obFMU Activity Schedule; !- Activity Level Schedule Name
+
+Schedule:File,
+S20_DATACENTER_MID_ZN_6 People Schedule,   !- Name
+obFMU Fraction,          !- Schedule Type Limits Name
+C:/Sites/OccupancySimulator/db/user_data/output_254127723_package/output_IDF.csv,    !- File Name
+23,                       !- Column Number
+7,                       !- Rows to Skip at Top
+8784,                     !- Number of Hours of Data
+Comma,                   !- Column Separator
+No,                      !- Interpolate to Timestep
+10;                      !- Minutes per Item
+
+Zone,
+S21_DATACENTER_TOP_ZN_6;                   !- Name
+People,
+S21_DATACENTER_TOP_ZN_6 People,            !- Name
+S21_DATACENTER_TOP_ZN_6,                   !- Zone or ZoneList Name
+S21_DATACENTER_TOP_ZN_6 People Schedule,   !- Number of People Schedule Name
+People,                  !- Number of People Calculation Method
+11,                       !- Number of People
+,                        !- People per Zone Floor Area {person/m2}
+,                        !- Zone Floor Area per Person {m2/person}
+0.3,                     !- Fraction Radiant
+AUTOCALCULATE,           !- Sensible Heat Fraction
+obFMU Activity Schedule; !- Activity Level Schedule Name
+
+Schedule:File,
+S21_DATACENTER_TOP_ZN_6 People Schedule,   !- Name
+obFMU Fraction,          !- Schedule Type Limits Name
+C:/Sites/OccupancySimulator/db/user_data/output_254127723_package/output_IDF.csv,    !- File Name
+24,                       !- Column Number
+7,                       !- Rows to Skip at Top
+8784,                     !- Number of Hours of Data
+Comma,                   !- Column Separator
+No,                      !- Interpolate to Timestep
+10;                      !- Minutes per Item
+
+Zone,
+S22_DATACENTER_BASEMENT_ZN_6;                   !- Name
+People,
+S22_DATACENTER_BASEMENT_ZN_6 People,            !- Name
+S22_DATACENTER_BASEMENT_ZN_6,                   !- Zone or ZoneList Name
+S22_DATACENTER_BASEMENT_ZN_6 People Schedule,   !- Number of People Schedule Name
+People,                  !- Number of People Calculation Method
+10,                       !- Number of People
+,                        !- People per Zone Floor Area {person/m2}
+,                        !- Zone Floor Area per Person {m2/person}
+0.3,                     !- Fraction Radiant
+AUTOCALCULATE,           !- Sensible Heat Fraction
+obFMU Activity Schedule; !- Activity Level Schedule Name
+
+Schedule:File,
+S22_DATACENTER_BASEMENT_ZN_6 People Schedule,   !- Name
+obFMU Fraction,          !- Schedule Type Limits Name
+C:/Sites/OccupancySimulator/db/user_data/output_254127723_package/output_IDF.csv,    !- File Name
+25,                       !- Column Number
+7,                       !- Rows to Skip at Top
+8784,                     !- Number of Hours of Data
+Comma,                   !- Column Separator
+No,                      !- Interpolate to Timestep
+10;                      !- Minutes per Item
+
+Zone,
+S23_BASEMENT;                   !- Name
+People,
+S23_BASEMENT People,            !- Name
+S23_BASEMENT,                   !- Zone or ZoneList Name
+S23_BASEMENT People Schedule,   !- Number of People Schedule Name
+People,                  !- Number of People Calculation Method
+129,                       !- Number of People
+,                        !- People per Zone Floor Area {person/m2}
+,                        !- Zone Floor Area per Person {m2/person}
+0.3,                     !- Fraction Radiant
+AUTOCALCULATE,           !- Sensible Heat Fraction
+obFMU Activity Schedule; !- Activity Level Schedule Name
+
+Schedule:File,
+S23_BASEMENT People Schedule,   !- Name
+obFMU Fraction,          !- Schedule Type Limits Name
+C:/Sites/OccupancySimulator/db/user_data/output_254127723_package/output_IDF.csv,    !- File Name
+26,                       !- Column Number
+7,                       !- Rows to Skip at Top
+8784,                     !- Number of Hours of Data
+Comma,                   !- Column Separator
+No,                      !- Interpolate to Timestep
+10;                      !- Minutes per Item
+
